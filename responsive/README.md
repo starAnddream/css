@@ -4,3 +4,13 @@
 属性height:auto的作用在于保证图片自身的高度比例不会改变。<br>
 ##基于媒介查询的图像缩放工作原理
 在CSS中通过逻辑条件将浏览器依据窗口属性进行区分
+##媒体查询与横竖屏
+```css
+@media screen and (orientation:portrait){
+
+}
+@media screen and (orientation:landscape){
+
+}
+```
+

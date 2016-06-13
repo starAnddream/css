@@ -18,14 +18,16 @@
 @media screen and (width:980px){
 
 }
+```
 这里的980px指的是设备的逻辑像素而不是物理像素，设备的物理像素是实际的大小
 ###媒体查询与宽度(物理像素)
-~~~css
+```css
 @media (device-width:320px){
 
 }
+```
 ###媒体查询与宽高比例（9/16是物理像素宽:高）
-~~~css
+```css
 @media screen and (device-aspect-ratio: 9/16) {
 
 }

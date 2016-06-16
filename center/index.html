@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>如何让元素居中</title>
+
+		<meta name="description" content="">
+<style>
+	div{
+	
+	}
+	.main{
+	border:1px solid black;
+	width:200px;
+	height:200px;
+	
+	}
+	.div1{
+	border:1px solid red;
+	top:50%;
+	left:50%;
+	width:100px;
+	height:100px;
+	position:relative;
+	transform: translate(-50%, -50%);
+	}
+	.main1{
+	border:1px solid black;
+	width:200px;
+	height:200px;
+	
+	}
+	.div0{
+	border:1px solid red;
+	width:100px;
+	height:100px;
+	position:relative;
+	margin:auto;
+	}
+</style>
+	</head>
+
+	<body>
+<div class="main">
+<div class="div1"></div>
+</div>
+<div class="main1">
+<div class="div0"></div>
+</div>
+	</body>
+
+</html>

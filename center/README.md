@@ -6,7 +6,6 @@ margin:0 auto
 只能水平居中，不能垂直距离居中
 ##相对定位+transform进行移动
 ```css
-position:relative;
 top:50%;              //找到父元素的中心点
 left:50%;
 position:relative;

@@ -8,7 +8,7 @@
 但是这种方法的最大缺陷就是改变了html结构，虽然只是加个div。
 ##最优浮动闭合方案（这是我推荐的）：
 ```css
-.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden}
 ```
 用法很简单，在浮动元素的父云素上添加class=”demo clearfix”。
 以上写法就避免了改变html结构，直接用css解决了。

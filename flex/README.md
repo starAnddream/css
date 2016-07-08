@@ -29,7 +29,7 @@ flex-wrap: wrap;
 ```css
 display:flex;
 flex-flow:row-reverse wrap;
-```css
+```
 * flex-grow扩展
 ```css
 div:nth-of-type(1) {flex-grow: 1;}

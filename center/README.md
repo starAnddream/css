@@ -14,3 +14,9 @@ transform: translate(-50%, -50%);       //向左上移动自己宽高的一半
 -moz-transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 ```
+##使用display:flex属性
+```css
+display:flex;
+align-items: center;
+justify-content: center;
+```

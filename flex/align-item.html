@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<style>
+#main {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+}
+
+#main div {
+   -webkit-flex: 1; /* Safari 6.1+ */
+   flex: 1;
+}
+table,tr,td,th{
+border:1px solid black;
+border-collapse:collapse;
+}
+</style>
+</head>
+<body>
+
+<div id="main">
+  <div style="background-color:coral;">RED</div>
+  <div style="background-color:lightblue;">BLUE</div>
+  <div style="background-color:lightgreen;">Green div with more content.</div>
+</div>
+<table>
+<tr>
+<th>值</th><th>描述</th><th>测试</th>
+</tr>
+<tr>
+<td>stretch</td>
+<td>默认值。项目被拉伸以适应容器。</td>
+<td><a href="http://www.runoob.com/try/playit.php?f=playcss_align-items&preval=stretch">测试</a></td>
+</tr>
+<tr>
+<td>center</td>
+<td>项目位于容器的中心。</td>
+<td><a href="http://www.runoob.com/try/playit.php?f=playcss_align-items&preval=stretch">测试</a></td>
+</tr>
+<tr>
+<td>flex-start</td>
+<td>项目位于容器的开头。</td>
+<td><a href="http://www.runoob.com/try/playit.php?f=playcss_align-items&preval=stretch">测试</a></td>
+</tr>
+<tr>
+<td>flex-end</td>
+<td>项目位于容器的结尾。</td>
+<td><a href="http://www.runoob.com/try/playit.php?f=playcss_align-items&preval=stretch">测试</a></td>
+</tr>
+<tr>
+<td>baseline</td>
+<td>项目位于容器的基线上。</td>
+<td><a href="http://www.runoob.com/try/playit.php?f=playcss_align-items&preval=stretch">测试</a></td>
+</tr>
+<tr>
+<td>initial</td>
+<td>设置该属性为它的默认值。请参阅 initial。</td>
+<td><a href="http://www.runoob.com/try/playit.php?f=playcss_align-items&preval=stretch">测试</a></td>
+</tr>
+</table>
+<p><b>注意:</b> Internet Explorer 10 及更早版本浏览器不支持 align-items 属性。</p>
+<p><b>注意:</b> Safari 7.0 及更新版本通过 -webkit-align-items 属性支持该属性。</p>
+
+</body>
+</html>

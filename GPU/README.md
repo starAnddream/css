@@ -49,11 +49,11 @@
   /* Other transform properties here */
 }
 ```
-* absolute vs translate
+* absolute vs translate <br/>
 ![](https://github.com/starAnddream/css/blob/master/GPU/img/absolute_translate.png)
-* rotate()
+* rotate()  <br/>
 ![](https://github.com/starAnddream/css/blob/master/GPU/img/rotate.png)
-* scale()
+* scale()  <br/>
 ![](https://github.com/starAnddream/css/blob/master/GPU/img/scale.png)
 * 原生的移动端应用(Native mobile applications)总是可以很好的运用GPU，这是为什么它比网页应用(Web apps)表现更好的原因。硬件加速在移动端尤其有用，因为它可以有效的减少资源的利用。
 

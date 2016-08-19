@@ -37,5 +37,6 @@ div:nth-of-type(2) {flex-grow: 3;}
 div:nth-of-type(3) {flex-grow: 1;}
 ```
 * flex-shrink收缩
+
 ##align-items
 demo:http://1.ajaxreq.applinzi.com/flex/align-item.html

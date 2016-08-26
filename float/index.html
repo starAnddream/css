@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+		.container{
+		width:100%;
+		}
+		 .child{
+		 height:200px;
+		 }
+		 .div1{
+		 background:red;
+		 float:left;
+		 width:30%;
+		 }
+		 .div2{
+		 background:yellow;
+		 float:left;
+		 width:30%;
+		 }
+		 .clearfix{
+		 clear:both;
+		 height:0px;
+	     overflow:hidden;
+		 }
+		 .container:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.container{*+height:1%;}
+		 
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="div1 child"></div>
+			<div class="div2 child"></div>
+			<div class=""></div>
+		</div>
+	</body>
+</html>
